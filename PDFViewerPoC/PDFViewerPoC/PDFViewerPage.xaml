@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
+             x:Class="PDFViewerPoC.PDFViewerPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Unload pdf" Clicked="Button_Clicked" WidthRequest="150" HeightRequest="35" />
+            <syncfusion:SfPdfViewer x:Name="pdfViewerControl" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
